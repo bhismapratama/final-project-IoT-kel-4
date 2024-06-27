@@ -1,0 +1,17 @@
+{
+  "name": "anti-thief",
+  "version": "1.0.0",
+  "main": "client.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon client.js"
+  },
+  "author": "Bhisma Elki Pratama, Siti Nur Ellyzah, Steven Figo",
+  "license": "MIT",
+  "description": "Final Project IoT"
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul > li {
+  list-style: disc;
+}
+
+ol > li {
+  list-style: decimal;
+}
+
+/* div, p, li, ul, section { */
+/*   border: 1px solid red; */
+/* } */

@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@headlessui/react": "^2.0.4",
+    "@tanstack/react-query": "^5.39.0",
+    "@tanstack/react-table": "^8.17.3",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.19.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "framer-motion": "^11.2.6",
+    "immer": "^10.1.1",
+    "mongoose": "^8.4.0",
+    "next": "14.2.3",
+    "next-seo": "^6.5.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "react-icons": "^5.2.1",
+    "react-toastify": "^10.0.5",
+    "react-webcam": "^7.2.0",
+    "tailwind-merge": "^2.3.0",
+    "universal-cookie": "^7.1.4",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

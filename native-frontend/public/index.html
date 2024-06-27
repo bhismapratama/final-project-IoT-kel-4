@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live CCTV - KEL 4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Live CCTV - KEL 4</h1>
+    <div class="relative">
+        <img id="stream" src="http://192.168.234.49:81/stream" width="600" height="400" alt="ESP32-CAM Stream">
+        <canvas id="canvas" width="800" height="400" class="hidden"></canvas>
+        <div class="absolute top-0 left-0 p-2 bg-gray-900 bg-opacity-75 text-white text-xs">
+            <span id="timestamp"></span>
+        </div>
+    </div>
+    <button id="capture-btn" class="button">Jepret</button>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
